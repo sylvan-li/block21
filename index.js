@@ -10,7 +10,7 @@ class Car {
       return `The make of this car is ${this.make}, the model is ${this.model} , and is made in ${this.year}.`;
     }
 }
-//defining a subclass of "car" with ElectricCar
+//defining a subclass/extended class of "car" named ElectricCar
 class ElectricCar extends Car {
   constructor(make, model, year, range) {
     super(make, model, year);
